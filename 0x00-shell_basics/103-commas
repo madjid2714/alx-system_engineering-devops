@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1 -X -d */ | tr '\n' ','
+ls -A1 -X -d . .. */ | tr '\n' ',' | sed 's/,$/\n/'
