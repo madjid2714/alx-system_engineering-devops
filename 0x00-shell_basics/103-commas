@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aX -d */ | tr '\n' ','
+ls -aX | tr '\n' ','
