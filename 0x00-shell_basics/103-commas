@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -am | sed 's/[^,]*\//&\//' | tr -d '\n'
+ls -apvm
