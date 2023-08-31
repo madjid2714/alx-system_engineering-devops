@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -am | sed 's/, /, \//g'
+ls -am | sed 's/[^,]*\//&\//' | tr -d '\n'
